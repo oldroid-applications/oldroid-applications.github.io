@@ -1,0 +1,79 @@
+<p style="text-align: center;"><img src="/staticimage/important/logos.logo.png" alt="logo" /></p>
+<h1 style="text-align: center;">Timesheet - Web Version</h1>
+<form>
+<table border="1">
+<tbody>
+<tr>
+<td colspan="7">
+<table>
+<tbody>
+<tr>
+<td>Cots per hour:</td>
+<td><input id="hour_cost" type="number" /></td>
+</tr>
+<tr>
+<td>Cots per hour (Extra):</td>
+<td><input id="extra_hour_cost" type="number" /></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>Date</td>
+<td>Start</td>
+<td>End</td>
+<td>Hours</td>
+<td>Hour Type</td>
+<td>Hour Cost</td>
+<td>Total</td>
+</tr>
+<tr>
+<td><input id="date_1" type="date" /></td>
+<td><input id="start_1" type="time" /></td>
+<td><input id="end_1" type="time" /></td>
+<td><input id="hours_1" type="number" /></td>
+<td><select id="type_1" onchange="re_compute()">
+<option selected="selected" value="Normal">Normal</option>
+<option value="Extra">Extra</option>
+</select></td>
+<td id="cost_1">&nbsp;</td>
+<td id="total_1">&nbsp;</td>
+</tr>
+<tr>
+<td><input id="date_2" type="date" /></td>
+<td><input id="start_2" type="time" /></td>
+<td><input id="end_2" type="time" /></td>
+<td><input id="hours_2" type="number" /></td>
+<td><select id="type_2" onchange="re_compute()">
+<option selected="selected" value="Normal">Normal</option>
+<option value="Extra">Extra</option>
+</select></td>
+<td id="cost_2">&nbsp;</td>
+<td id="total_2">&nbsp;</td>
+</tr>
+<tr>
+<td><input id="date_3" type="date" /></td>
+<td><input id="start_3" type="time" /></td>
+<td><input id="end_3" type="time" /></td>
+<td><input id="hours_3" type="number" /></td>
+<td><select id="type_3" onchange="re_compute()">
+<option selected="selected" value="Normal">Normal</option>
+<option value="Extra">Extra</option>
+</select></td>
+<td id="cost_3">&nbsp;</td>
+<td id="total_3">&nbsp;</td>
+</tr>
+<tr>
+<td colspan="5">&nbsp;</td>
+<td>Total Hours</td>
+<td>Total Cost</td>
+</tr>
+<tr>
+<td colspan="5">&nbsp;</td>
+<td id="total_hours">&nbsp;</td>
+<td id="total_cost">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</form>

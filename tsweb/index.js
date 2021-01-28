@@ -1,6 +1,6 @@
 // Time Sheet Demo JS File
 // Original Author: Mauricio Giraldo <mgiraldo@gmail.com>
-// "Reworked" by Adrian Rivera (a.k.a. rarebride) <riveraadrian672@gmail.com>
+// Stolen by Adrian Rivera (a.k.a. rarebride) <riveraadrian672@gmail.com>
 
 var number_of_rows = 3;
 var total_hours = 0;

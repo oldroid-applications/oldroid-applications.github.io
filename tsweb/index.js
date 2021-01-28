@@ -53,6 +53,6 @@ function re_compute()
     }
     else
     {
-        alert("Please type the cost of the normal and extra hours.");
+        alert("Please type the cost of normal and extra hours.");
     }
 }
